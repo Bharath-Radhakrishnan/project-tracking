@@ -1,5 +1,43 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
-
+@import "_colors";
 body{
-  background-color: red;
+  //background-color: $VeryDarkBlue;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  color: $VeryDarkBlue;
+
+}
+h1,h2,h3,h4,h6{
+  color: $VeryDarkBlue;
+font-family: 'Barlow Condensed', sans-serif;
+font-weight: 700;
+font-size: 3rem;
+}
+nav{
+  font-family: 'Barlow Condensed', sans-serif;
+  padding-top: 60px !important;
+}
+section{
+  padding-top: 150px;
+}
+span{
+  background-color: $VeryDarkBlue;
+  color: #fff;
+  border-radius: 16px;
+  font-family: 'Barlow Condensed', sans-serif;
+  padding:0 10px;
+}
+.container-fluid{
+  padding-left: 150px;
+}
+.text-content{
+}
+.image-content{
+  position: relative;
+  top: -50px;
+  left: 30px;
+}
+.row{
+overflow-x: hidden;
+padding: 50px 0;
 }
